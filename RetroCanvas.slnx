@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RetroCanvas.Abstractions/RetroCanvas.Abstractions.csproj" />
+    <Project Path="src/RetroCanvas.Core/RetroCanvas.Core.csproj" />
+    <Project Path="src/RetroCanvas.Samples/RetroCanvas.Samples.csproj" />
+  </Folder>
+</Solution>

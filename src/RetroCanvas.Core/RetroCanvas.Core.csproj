@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>SymphonicNavigator.RetroCanvas.Core</PackageId>
+    <Description>Low-level VGA/audio retro-demo engine — unsafe FrameBuffer, CLUT, CRTC simulation, SDL2 backend via Silk.NET</Description>
+    <Authors>SymphonicNavigator</Authors>
+    <RepositoryUrl>https://github.com/symphonic-navigator/RetroCanvas</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Silk.NET.SDL" Version="2.23.0" />
+  </ItemGroup>
+
+</Project>
